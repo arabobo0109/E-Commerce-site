@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,300&family=Lora:ital,wght@1,500&family=Merriweather:wght@700&family=Montserrat:wght@600&family=Varela&family=Varela+Round&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif !important;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link{
+  color:black !important;
+}
+
+.navbar-nav{
+  margin-left:850px;
+}
+
+.navbar-brand{
+  color: black !important;
+}
+
+.size{
+  font-size: medium;
+}
+
+.img-fluid{
+  height: 220px !important;
+  width: 500px !important;
+}
+
+.flex-container{
+  display: flex !important;
+}
+
+.btn{
+  background-color: red !important;
+  color: white !important;
+}
+
+.select{
+  box-shadow: none !important;
+  border-color:black !important;
+}
+
+.fa-plus{
+  color: green;
+  margin: 5px;
+}
+
+.fa-minus{
+  color: red;
+  margin: 5px;
+}
+
+.fa-trash{
+  color: red;
+  font-size: 24px;
+}
+
+.mycart-bold{
+  font-size: 35px;
+}
+
+.subtotal-bold{
+  font-size: 35px;
+  
+}
+
+.cart-box{
+  box-shadow: 10px 5px 20px grey;
+margin: 20px;
+}
+
+.size{
+  font-size: medium;
+}
+
+.register{
+  background-image: url('./images//bg1.svg');
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 90vh;
+}
+
+.login{
+  background-image: url('./images//bg2.svg');
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height:90vh;
+}
+
+.adminfunctions{
+  padding: 10px;
+  background-color:rgb(1, 1, 77);
+}
+
+.adminfunctions li{
+  list-style-type: none !important; 
+  display: inline !important;
+  color: white !important;
+}
+.adminfunctions li a{
+   color: white !important;
+   padding: 20px;
+}
+td , th , tr{
+  text-align:left;
+}
